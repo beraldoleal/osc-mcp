@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "oscd": {
+      "command": "python",
+      "args": ["-m", "oscd.server", "-t", "sse"],
+      "env": {
+        "PYTHONPATH": "src"
+      }
+    }
+  }
+}
